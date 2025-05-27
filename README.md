@@ -6,10 +6,6 @@ A pixel-perfect, responsive healthcare dashboard built with **React** and **Vite
 
 Experience the dashboard live: [https://healthcare-dashboard-fawn.vercel.app](https://healthcare-dashboard-fawn.vercel.app)
 
-## 📸 Screenshots
-
-> *Include screenshots of the dashboard here to showcase the UI.*
-
 ## 🧰 Tech Stack
 
 - **Framework**: [React](https://reactjs.org/)
