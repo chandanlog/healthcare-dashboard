@@ -1,12 +1,50 @@
-# React + Vite
+# 🏥 Healthcare Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A pixel-perfect, responsive healthcare dashboard built with **React** and **Vite**, designed to provide a clean and organized interface for managing health-related data. This project replicates a detailed UI layout, emphasizing component-based architecture and meticulous styling.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Experience the dashboard live: [https://healthcare-dashboard-fawn.vercel.app](https://healthcare-dashboard-fawn.vercel.app)
 
-## Expanding the ESLint configuration
+## 📸 Screenshots
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+> *Include screenshots of the dashboard here to showcase the UI.*
+
+## 🧰 Tech Stack
+
+- **Framework**: [React](https://reactjs.org/)
+- **Build Tool**: [Vite](https://vitejs.dev/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Icons**: [Font Awesome](https://fontawesome.com/) / [Lucide](https://lucide.dev/)
+- **Package Manager**: [npm](https://www.npmjs.com/)
+
+## 📁 Project Structure
+
+```bash
+healthcare-dashboard/
+├── public/
+├── src/
+│   ├── assets/            # Images and icons
+│   ├── components/        # Reusable components
+│   │   ├── Header/
+│   │   ├── Sidebar/
+│   │   ├── DashboardMainContent/
+│   │   │   ├── AnatomySection/
+│   │   │   ├── HealthStatusCards/
+│   │   │   ├── CalendarView/
+│   │   │   ├── UpcomingSchedule/
+│   │   │   ├── ActivityFeed/
+│   │   │   └── SimpleAppointmentCard/
+│   ├── data/              # Static mock data
+│   │   ├── appointments.js
+│   │   ├── healthData.js
+│   │   └── navigationLinks.js
+│   ├── styles/            # Global and component-specific styles
+│   ├── App.js
+│   └── main.jsx
+├── .gitignore
+├── index.html
+├── package.json
+├── postcss.config.js
+├── tailwind.config.js
+└── vite.config.js
